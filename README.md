@@ -41,14 +41,11 @@ To set up database, run the following command in your mySQL shell:
 
     source db/schema.sql
 
-Once that is done, exit the mySQL shell and run the following in order:
+Once that is done, exit the mySQL shell and run the following to seed the database:
 
-    node seeds/category-seeds.js
-    node seeds/product-seeds.js
-    node seeds/tag-seeds.js
-    node seeds/product-tag-seeds.js
+    node seeds/index.js
 
-These will seed all four tables and populate the database. 
+These will create and seed all four tables, populating the database. 
 
 ## Usage
 
